@@ -8,11 +8,7 @@ app.use(express.urlencoded({ extended: true }));
 // Connection URL
 
 const { MongoClient, Collection } = require("mongodb");
-<<<<<<<< HEAD:nodeback/app.js
-const url = "mongodb://127.0.0.1:27017";
-========
 const url = "mongodb+srv://contact:YRIAFRQR1NFIcsHM@contactlist.c2xlua1.mongodb.net/?retryWrites=true&w=majority";
->>>>>>>> Nice:nodeback/app_atlas.js
 
 // mongodb+srv://contact:YRIAFRQR1NFIcsHM@contactlist.c2xlua1.mongodb.net/?retryWrites=true&w=majority
 const client = new MongoClient(url);
