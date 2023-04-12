@@ -25,7 +25,7 @@ let collection, collectionAuth;
 async function dbConnect() {
   console.log("DB connect Started");
   // console.log(url)
-  await client.connect(url,{ useUnifiedTopology: true });
+  await client.connect();
   console.log("DB connect successful");
 
   db = client.db(dbName);
