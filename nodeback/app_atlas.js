@@ -8,7 +8,11 @@ app.use(express.urlencoded({ extended: true }));
 // Connection URL
 
 const { MongoClient, Collection } = require("mongodb");
+<<<<<<<< HEAD:nodeback/app.js
+const url = "mongodb://127.0.0.1:27017";
+========
 const url = "mongodb+srv://contact:YRIAFRQR1NFIcsHM@contactlist.c2xlua1.mongodb.net/?retryWrites=true&w=majority";
+>>>>>>>> Nice:nodeback/app_atlas.js
 
 // mongodb+srv://contact:YRIAFRQR1NFIcsHM@contactlist.c2xlua1.mongodb.net/?retryWrites=true&w=majority
 const client = new MongoClient(url);
@@ -143,16 +147,23 @@ app.delete("/contacts/:id", function (req, res) {
     .catch(console.error);
 });
 
-var server = app.listen(5005, function () {
-  const host = "127.0.0.1";
-  const port = server.address().port;
-  console.log("Application is running at http://%s:%s", host, port);
-});
+const PORT = process.env.PORT || 5005;
+  app.listen(PORT, () => {
+    console.log(`Server started on port ${PORT}`);
+  });
 
-server.on("close", function (event) {
-  console.log("Server is shutdown");
-  client.close();
-});
+  // deploy
+
+// var server = app.listen(5005, function () {
+//   const host = "127.0.0.1";
+//   const port = server.address().port;
+//   console.log("Application is running at http://%s:%s", host, port);
+// });
+
+// server.on("close", function (event) {
+//   console.log("Server is shutdown");
+//   client.close();
+// });
 
 process.on("SIGINT", function () {
   console.log("Server is shutdown");
