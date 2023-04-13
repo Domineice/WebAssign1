@@ -11,12 +11,13 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB6U1ukAv2fnj8o4ZCEkhn1Hk17HNx2tSc",
-  authDomain: "contact3129.firebaseapp.com",
-  projectId: "contact3129",
-  storageBucket: "contact3129.appspot.com",
-  messagingSenderId: "642954258850",
-  appId: "1:642954258850:web:35573fc471d1d647642afb"
+  apiKey: "AIzaSyC9Jrn1bxPs-pV4ge548RRJ1IznlCwey_E",
+  authDomain: "contact3129-795cc.firebaseapp.com",
+  projectId: "contact3129-795cc",
+  storageBucket: "contact3129-795cc.appspot.com",
+  messagingSenderId: "342110914065",
+  appId: "1:342110914065:web:4361e5e8bb8bf0503dd3b0",
+  measurementId: "G-5YF56YM5T1"
 };
 
 // Initialize Firebase
