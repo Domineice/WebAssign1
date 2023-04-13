@@ -9,11 +9,11 @@ const router = createRouter({
   routes: [
     {
       path:'/',
-      redirect:'/login',
+      redirect:'/Cards',
     },
     {
       path:'/:catchAll(.*)', //ไม่ได้กำหนดไว้
-      redirect:'/login'
+      redirect:'/Cards'
     },
     {
       path: '/login',

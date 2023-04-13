@@ -19,7 +19,7 @@ export default {
   methods: {
     async pushToAPI() {
       try {
-        const url = "https://six213129webassignback.onrender.com/contacts/";
+        const url = "https://contact3129.onrender.com/contacts/";
 
         if (!this.validatePhoneNumber()) {
           alert("Please enter a valid phone number");

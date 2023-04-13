@@ -29,7 +29,7 @@ export default {
   mounted() {
     console.log(this.$route.params.editId);
     var url =
-      "https://six213129webassignback.onrender.com/contacts/" +
+      "https://contact3129.onrender.com/contacts/" +
       this.$route.params.editId;
     // console.log(url);
     axios
@@ -52,7 +52,7 @@ export default {
           alert("Please enter a valid phone number");
         } else {
           const url =
-            "https://six213129webassignback.onrender.com/contacts/" +
+            "https://contact3129.onrender.com/contacts/" +
             this.$route.params.editId;
           const response = await axios.post(url, this.editcontact);
           console.log(response);

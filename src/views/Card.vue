@@ -10,7 +10,7 @@ export default {
     };
   },
   mounted() {
-    var url = "https://six213129webassignback.onrender.com/contacts/";
+    var url = "https://contact3129.onrender.com/contacts/";
     // console.log(url);
     axios
       .get(url)
@@ -45,8 +45,8 @@ export default {
       this.$router.push({ name: "editContact", params: { editId: id } });
     },
     deleteCard(delid) {
-      var url = "https://six213129webassignback.onrender.com/contacts/" + delid;
-      var geturl = "https://six213129webassignback.onrender.com/contacts/";
+      var url = "https://contact3129.onrender.com/contacts/" + delid;
+      var geturl = "https://contact3129.onrender.com/contacts/";
       // console.log(url);
       axios
         .delete(url)
