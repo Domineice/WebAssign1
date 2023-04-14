@@ -14,4 +14,4 @@ you may found a log in page
 after u log in you will found a log in page that you can edit update delete and contract information
 and you also can search a contract from firstname an lastname
 
-good luck with thest demo
+good luck with these demo
