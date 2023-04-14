@@ -7,8 +7,7 @@ and a little nodejs for backend crud
 Wish this project might useful and have fun for U
 Luv U 3000
 
-First go to this link https://contact3129-65610.web.app/login 
-you may found a log in page
+First the project will redirect you to a login page
 <it a bit to slow pls be pation>
 
 after you logedin you will found a Home page that you can edit update delete a contract information
